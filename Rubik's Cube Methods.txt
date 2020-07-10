@@ -1,0 +1,4 @@
+Rubik's Cube Methods:
+- Layered Method
+- Beginner's Method
+- Speed Cube Method

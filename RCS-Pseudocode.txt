@@ -1,0 +1,38 @@
+Rubik's Cube Solver - Pseudocode:
+- Phases:
+	- Phase 1: Simulate a virtual Rubik's Cube
+		- Shuffle
+		- Reset
+		- Front face
+			- F
+			- F'
+		- Back face
+			- B
+			- B'
+		- Up face
+			- U
+			- U'
+		- Down face
+			- D
+			- D'
+		- Left face
+			- L
+			- L'
+		- Right face
+			- R
+			- R'
+	- Phase 2: Solve a virtual Rubik's Cube and give instructions
+		- Daisy
+		- White cross
+		- White Corners
+		- Solve the middle layer
+			- Moving left
+			- Moving right
+		- Solving the final layer
+			- Make a yellow Cross
+			- Orient the Corners
+			- Position the yellow corners
+			- Position the yellow edges
+	- Phase 3: Convert pictures of a Rubik's Cube to a virtual Rubik's Cube and apply Phase 2
+	- Phase 4: Allow the user to pick the method of choice to solve it
+	- Phase 5: Allow the user to pick between different types of Cube (2x2, 3x3, 4x4, etc.)
